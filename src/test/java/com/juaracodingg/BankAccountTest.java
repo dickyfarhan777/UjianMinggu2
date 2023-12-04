@@ -71,7 +71,7 @@ public class BankAccountTest {
     public void testCheckBalance() {
         double balance = bankaccount.checkBalance();
         Assert.assertEquals(balance, 50000.0);
-        System.out.println(bankaccount.checkBalance());
+        System.out.println("Balance is : "+balance);
     }
     @Test (priority = 0)
     public void testDisplay() {
