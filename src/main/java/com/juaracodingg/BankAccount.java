@@ -52,11 +52,12 @@ public class BankAccount {
         return amount;
     }
 
-    public void checkBalance() {
-        System.out.println("Balance is: " + amount);
+    public double checkBalance() {
+        //System.out.println("Balance is: " + amount)
+        return amount ;
     }
 
-    public void display() {
-        System.out.println(acc_no + " " + name + " " + amount);
+    public String display() {
+        return acc_no + " " + name + " " + amount;
     }
 }
